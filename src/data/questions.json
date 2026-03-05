@@ -134,6 +134,106 @@
       ],
       "correctOption": 3,
       "points": 20
+    },
+    {
+      "question": "What is the best way to pass data deeply into the component tree without prop drilling?",
+      "options": [
+        "Using local storage",
+        "Using the Context API",
+        "Passing props down every level",
+        "Using React Router"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Why is the `key` prop required when rendering lists in React?",
+      "options": [
+        "To provide an ID for CSS styling",
+        "To help React track element changes, additions, and removals efficiently",
+        "To securely encrypt list items",
+        "To pass data between child elements"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Which hook should you use to keep a mutable value that does NOT cause a re-render when updated?",
+      "options": ["useState", "useEffect", "useRef", "useMemo"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "When is `useReducer` usually preferred over `useState`?",
+      "options": [
+        "When you want to avoid UI re-renders",
+        "When the state logic is complex and involves multiple sub-values",
+        "When making basic API GET requests",
+        "When toggling a simple boolean flag"
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "What is a mandatory rule when naming a Custom Hook in React?",
+      "options": [
+        "It must end with 'Hook'",
+        "It must start with 'use'",
+        "It must be written in snake_case",
+        "It can be named anything"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What must a React component return?",
+      "options": [
+        "Multiple sibling elements without a wrapper",
+        "A single root DOM node or a React Fragment",
+        "An array of strings",
+        "A JavaScript class"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What is the primary purpose of `React.memo`?",
+      "options": [
+        "To memoize expensive mathematical calculations",
+        "To cache API responses from the server",
+        "To prevent a component from re-rendering if its props haven't changed",
+        "To remember the previous state of a component"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "What does `React.StrictMode` do in a development environment?",
+      "options": [
+        "It intentionally double-invokes components to help find side-effect bugs",
+        "It forces the code to compile strictly with TypeScript",
+        "It prevents the use of inline CSS",
+        "It automatically formats your JavaScript code"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "Which hook would you use to cache the result of an expensive calculation?",
+      "options": ["useCallback", "useMemo", "useRef", "useReducer"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What does `ReactDOM.createPortal` allow you to do?",
+      "options": [
+        "Create a magical animation effect",
+        "Render a component's output into a different part of the DOM tree outside its parent",
+        "Automatically route users to a new page",
+        "Create a secure connection to a database"
+      ],
+      "correctOption": 1,
+      "points": 30
     }
   ]
 }

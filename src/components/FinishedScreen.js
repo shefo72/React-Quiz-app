@@ -9,9 +9,9 @@ function FinishedScreen({ points, maxPoints, highScore, dispatch }) {
   return (
     <>
       <p className="result">
-        <span>{emoji}</span>Your Score is<strong>{points}</strong> out of{" "}
-        {maxPoints}
-        {Math.ceil(percentage)}
+        <span>{emoji}</span>Your Score is<strong> {points} </strong> out of{" "}
+        {maxPoints} <br />
+        {Math.ceil(percentage)}%
       </p>
       <p className="highscore">(Highscore : {highScore} points)</p>
       <button

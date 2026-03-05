@@ -198,7 +198,7 @@ export const questions = [
       "A JavaScript class",
     ],
     correctOption: 1,
-    points: 10,
+    points: 20,
   },
   {
     question: "What is the primary purpose of `React.memo`?",
