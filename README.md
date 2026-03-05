@@ -4,6 +4,12 @@ A simple and interactive quiz application built with **React**. The app allows u
 
 ---
 
+## 🔻Live Demo
+
+Check out the app online: [React Quiz App Live Demo](https://react-quiz-app-hazel-nine.vercel.app/)
+
+---
+
 ## ✨ Features
 
 - **State Management:** Uses React's `useReducer` for robust state handling.
@@ -12,17 +18,6 @@ A simple and interactive quiz application built with **React**. The app allows u
 - **Progress Tracking:** Visual bar showing current question and score.
 - **High Score:** Saves your best score during the session.
 - **Flexible Data:** Loads from a local file, with built-in support to switch to a REST API.
-
----
-
-## 🛠️ Tech Stack
-
-- React
-- React Hooks
-  - `useReducer`
-  - `useEffect`
-- JavaScript (ES6+)
-- CSS
 
 ---
 
