@@ -13,6 +13,7 @@ Check out the app online: [React Quiz App Live Demo](https://react-quiz-app-haze
 ## ✨ Features
 
 - **State Management:** Uses React's `useReducer` for robust state handling.
+- **Context API:** Eliminates prop drilling by providing global quiz state across the application.
 - **Dynamic UI:** Smoothly manages `loading`, `error`, `ready`, `active`, and `finished` states.
 - **Countdown Timer:** 30 seconds per question; quiz auto-ends when time is up.
 - **Progress Tracking:** Visual bar showing current question and score.
@@ -73,15 +74,51 @@ src
 │   ├── Options.js
 │   └── Timer.js
 │
+├── context
+│   └── QuizContext.js
+│
 ├── data
 │   └── questions.js
 |   └── questions.json
 │
 ├── App.js
-├── DataCounter.js
 ├── Index.css
 └── index.js
 ```
+
+---
+
+## 🧠 Context API Implementation
+
+This project also demonstrates how to solve a **prop drilling problem** using the **React Context API**.
+
+Key changes:
+
+- Created a global context called **`QuizContext`**.
+- Moved the **reducer logic** inside the context.
+- Created a custom **`QuizProvider`** to manage and provide state.
+- Wrapped the entire application with the provider in **`index.js`**.
+- Built a **custom hook** to easily access quiz state across components.
+- Removed unnecessary props that were previously passed through multiple components.
+
+---
+
+## 📁 Alternative Version (Without Context)
+
+For learning purposes, the repository also contains an alternative version of the project:
+
+```
+src-no-context
+```
+
+This folder includes the same quiz application **before implementing the Context API**, where state and props are passed manually through multiple components.
+
+This allows developers to compare two approaches:
+
+- **Prop Drilling Approach**
+- **Context API Global State Approach**
+
+and better understand when and why Context API can simplify state management.
 
 ---
 
